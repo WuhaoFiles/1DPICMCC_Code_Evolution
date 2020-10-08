@@ -49,6 +49,11 @@
 		<File RelativePath=".\code\diagnostics\DiagTestParticle.f90"/>
 		<File RelativePath=".\code\diagnostics\DiagTrackingParticle.f90"/>
 		<File RelativePath=".\code\diagnostics\Grid.f90"/></Filter>
+		<Filter Name="Field">
+		<File RelativePath=".\code\field\ExternalCircuit.f90"/>
+		<File RelativePath=".\code\field\Field.f90"/>
+		<File RelativePath=".\code\Field\FieldBoundary.f90"/>
+		<File RelativePath=".\code\field\FieldOneStep.f90"/></Filter>
 		<Filter Name="mc">
 		<File RelativePath=".\code\mc\MCCChi.f90"/>
 		<File RelativePath=".\code\mc\MCCElectron.F90"/>
@@ -58,13 +63,8 @@
 		<File RelativePath=".\code\mc\MCCSigma.f90"/>
 		<File RelativePath=".\code\mc\Recombination.F90"/>
 		<File RelativePath=".\code\mc\TypeMCC.f90"/></Filter>
-		<Filter Name="Field">
-		<File RelativePath=".\code\field\ExternalCircuit.f90"/>
-		<File RelativePath=".\code\field\Field.f90"/>
-		<File RelativePath=".\code\Field\FieldBoundary.f90"/>
-		<File RelativePath=".\code\field\FieldOneStep.f90"/></Filter>
 		<Filter Name="pic">
-		<File RelativePath=".\code\diagnostics\DiagOneStep.f90"/>
+		<File RelativePath=".\code\pic\DiagOneStep.f90"/>
 		<File RelativePath=".\code\pic\OneStep.f90"/></Filter>
 		<File RelativePath=".\code\Main.F90"/></Filter></Files>
 	<Globals/></VisualStudioProject>
